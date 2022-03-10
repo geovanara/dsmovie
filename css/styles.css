@@ -63,7 +63,7 @@
                     }
 
                 .dsmovie-card {
-                    width: 360px;
+                    width: 100%;
                   }   
                 
                     .dsmovie-card img {
@@ -73,11 +73,13 @@
 
                     .dsmovie-card-description {
                         background-color: var(--white);
-                        padding: 10px 0 20px 0;
+                        padding: 10px 20px 20px 20px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
+                        justify-content: space-between;
                         border-radius: 0 0 8px 8px;
+                        min-height: 150px;
                     }
 
                     .dsmovie-card-description h3 {
